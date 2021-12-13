@@ -64,42 +64,23 @@
 
 // 4 Напишите функцию, которая разделит массив на части заданного размера и вернет массив элементами которого являются эти части. Пример функции: splitArray([1, 2, 3, 4, 5], 2) => [[1, 2], [3, 4], [5]]
 
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8]
+const arr = [1, 2, 3, 4, 5, 6, 7, 8]
 
-// function splitArr(arr, num) {
+function splitArr(arr, num) {
 
-//   Вариан 1
+  const newArr = arr.reduce((acc, el, index) => {
+    // console.log(`index = ${index}, num = ${num}, index % num = ${index % num}`)
+    if(index % num === 0) {
+      acc.push(arr.slice(index, index + num))
+    }
+    return acc
+  }, [])
+    
+  return newArr
+}
+console.log('Исходный массив:', arr)
+console.log('Результат:', splitArr(arr, 3))
 
-//   const copyArr = [...arr]  
-//   let result = []                           
-
-//   for (let i = 0; i < arr.length; i++) {   
-//     if(copyArr.length !== 0) {                         
-//       result.push(copyArr.splice(0, num))              
-//     } else {                                           
-//       break
-//     }                                                  
-//   }                                                    
-  
-//   Вариант 2
-
-//   let newArr = []
-//   const result = []
-
-//   arr.forEach((el, index) => {
-//     newArr.push(el)
-//     if(newArr.length === num) {
-//       result.push(newArr)
-//       newArr = []
-//     } else if(arr.length - 1 === index){
-//       result.push(newArr)
-//     }
-//   })
-  
-//   return result
-// }
-// console.log('Исходный массив:', arr)
-// console.log('Результат:', splitArr(arr, 5))
 
 
 
