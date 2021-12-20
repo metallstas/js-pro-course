@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 850px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.cardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.card {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+  transition: box-shadow 0.5s ease;
+}
+
+.card p {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.searchBlock {
+  margin: 20px;
+  text-align: center;
+}
+
+.todoList {
+  padding: 10px;
+}
+
+.todoList li {
+  margin: 5px 0;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px 0 rgba(61, 47, 47, 0.14);
+  cursor: pointer;
+}
+
+.todoList li p {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.todoList input {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.photo {
+  margin: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.back {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s ease;
+}
+
+.wrapPhoto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.wrapper input {
+  padding: 5px 5px;
+}
