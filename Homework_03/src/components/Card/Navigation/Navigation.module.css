@@ -1,0 +1,11 @@
+.Navigation {
+  display: flex;
+  list-style: none;
+  margin: 50px 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.Navigation li:not(:last-child) {
+  padding-right: 20px;
+}
