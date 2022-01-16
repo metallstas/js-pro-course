@@ -1,0 +1,63 @@
+.videoBlock {
+  margin: 30px 0;
+  padding-right: 10px;
+}
+
+.videoWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.videoWrapper div {
+  margin-right: 30px;
+}
+
+.videoWrapper div button  {
+  width: 40px;
+  height: 20px;
+  border: 1px solid #c2c2c2;
+  color: #c2c2c2;
+  margin-left: 5px;
+}
+
+.videoWrapper div button:hover {
+  background-color: rgb(28, 171, 228);
+  border: 1px solid #999999;
+  color: #fff;
+}
+
+.lineVideo {
+  position: relative;
+  background-color: gray;
+  width: 100%;
+  margin: 10px 0;
+  padding-right: 10px;
+  height: 5px;
+}
+
+.lineVideo span {
+  position: absolute;
+  background-color: #d0440c;
+  width: 250px;
+  height: 5px;
+}
+
+.videoList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videoList img {
+  width: 238px;
+  height: 151px;
+}
+
+.videoList div {
+  width: 238px;
+  margin: 5px 0;
+}
+
+.videoList div:not(:last-child){
+  margin-right: 25px;
+}

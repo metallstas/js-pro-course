@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #d0440c;
+  text-align: center;
+  padding: 0 15px;
+  height: 100vh;
+  z-index: 2;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  padding-left: 5px;
+}
+
+.form button {
+  background: url(../../../public/img/search.png);
+  border: 1px solid #000;
+  width: 42px;
+  height: 32px;
+}
+
+.navigation {
+  margin-top: 50px;
+  text-align: left;
+  color: #fff;
+}
+
+.navigation li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.navigation li img {
+  margin-right: 10px;
+}
+
+.navigation li:hover {
+  background-color: #000;
+  padding-left: 10px;
+}
