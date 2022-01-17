@@ -1,0 +1,15 @@
+.idInfo {
+  padding-left: 150px;
+  padding-top: 10px;
+}
+
+.idUser {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.idDate {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}

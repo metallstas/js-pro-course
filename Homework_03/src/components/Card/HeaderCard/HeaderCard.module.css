@@ -1,0 +1,21 @@
+.headerCard {
+  background-color: #ffda50;
+  background-image: url('../../../../public/images/bg-pattern.png');
+  background-repeat: repeat;
+  background-size: 50px 50px;
+  position: relative;
+  height: 240px;
+  margin-left: -44px;
+  margin-right: -44px;
+}
+
+.photo {
+  position: absolute;
+  left: 30px;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  transform: translateY(50%);
+  background-color: rgb(197, 197, 197);
+  border-radius: 50%;
+}

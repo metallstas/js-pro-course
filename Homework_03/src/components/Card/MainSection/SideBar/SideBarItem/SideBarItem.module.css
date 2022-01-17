@@ -1,0 +1,9 @@
+.item {
+  list-style: none;
+}
+
+.item li {
+  color: rgb(0, 110, 255);
+  font-weight: 300;
+  margin-bottom: 10px;
+}

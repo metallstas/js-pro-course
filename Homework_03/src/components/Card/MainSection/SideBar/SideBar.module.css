@@ -1,0 +1,10 @@
+.SideBar {
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  flex-basis: 40%;
+}
+
+.SideBar ul {
+  margin-bottom: 40px;
+}
