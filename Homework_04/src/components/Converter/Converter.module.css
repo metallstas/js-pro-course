@@ -1,0 +1,18 @@
+.converter {
+  position: relative;
+  border: 1px solid #000;
+  z-index: 0;
+  padding: 15px 0;
+  margin: 10px 0;
+}
+
+.converter p {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  background-color: #fff;
+  padding: 0 5px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
