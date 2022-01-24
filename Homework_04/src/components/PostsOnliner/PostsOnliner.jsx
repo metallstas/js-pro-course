@@ -14,7 +14,7 @@ const postsOnliner = [
   },
   {
     img: './images/People.jpeg',
-    title: 'В 42 года отказался от кресла руководителя и стал поваром',
+    title: 'В 42 года отказался от кресларуководителя и стал поваром',
     comment: 103,
     category: 'Люди',
     onClick() {
