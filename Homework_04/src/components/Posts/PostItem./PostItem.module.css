@@ -1,0 +1,25 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.postTitle {
+  padding: 10px;
+}
+
+.postAutor {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+  background-color: rgb(230, 230, 230);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

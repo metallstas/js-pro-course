@@ -1,0 +1,4 @@
+.postFacebookWrap {
+  display: flex;
+  flex-direction: column;
+}
